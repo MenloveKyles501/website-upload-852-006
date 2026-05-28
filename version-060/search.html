@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>影片搜索-亚洲高清影片-高清影视片库-高清影片在线观看</title>
+  <meta name="description" content="搜索亚洲高清影片片库中的影片名称、地区、类型、年份与标签。">
+  <meta name="keywords" content="亚洲高清影片,亚洲影片,高清影片,影视片库,精选影片,热门影片,影片搜索,影视搜索">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="影片搜索-亚洲高清影片-高清影视片库-高清影片在线观看">
+  <meta property="og:description" content="搜索亚洲高清影片片库中的影片名称、地区、类型、年份与标签。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="./assets/original.css">
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav-shell" aria-label="主导航">
+    <a class="brand" href="./index.html" aria-label="亚洲高清影库">
+      <span class="brand-mark">▶</span>
+      <span>亚洲高清影库</span>
+    </a>
+    <button class="menu-toggle" type="button" data-menu-toggle aria-label="打开导航">☰</button>
+    <div class="nav-panel" data-nav-menu>
+      <div class="nav-links">
+        <a class="nav-link " href="./index.html">首页</a>
+        <a class="nav-link " href="./categories.html">分类</a>
+        <a class="nav-link " href="./ranking.html">排行榜</a>
+        <a class="nav-link " href="./catalog.html">影片索引</a>
+        <a class="nav-link mobile-only" href="./category-asian-featured.html">亚洲精选</a>
+        <a class="nav-link mobile-only" href="./category-hot-movies.html">热门大片</a>
+        <a class="nav-link mobile-only" href="./category-suspense-thriller.html">悬疑惊悚</a>
+        <a class="nav-link mobile-only" href="./category-action-crime.html">动作犯罪</a>
+        <a class="nav-link mobile-only" href="./category-romance-youth.html">爱情青春</a>
+      </div>
+      <form class="nav-search" action="./search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="搜索影视作品..." aria-label="搜索影视作品">
+        <button type="submit">搜索</button>
+      </form>
+    </div>
+  </nav>
+</header>
+<main class="page-shell">
+  <div class="breadcrumb"><a href="./index.html">首页</a><span>/</span><span>影片搜索</span></div>
+  <div class="page-headline">
+    <div>
+      <h1>影片搜索</h1>
+      <p>输入片名、年份、地区、类型或标签，快速找到对应影片详情页。</p>
+    </div>
+  </div>
+  <section class="search-panel">
+    <div class="search-row">
+      <input class="search-input" type="search" data-search-page-input placeholder="搜索片名、地区、类型、标签" aria-label="搜索影片">
+      <button class="search-button" type="button" onclick="document.querySelector('[data-search-page-input]').dispatchEvent(new Event('input'))">搜索</button>
+    </div>
+    <div class="search-results" data-search-results></div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="footer-shell">
+    <div class="footer-brand">
+      <a class="brand footer-logo" href="./index.html"><span class="brand-mark">▶</span><span>亚洲高清影库</span></a>
+      <p>提供亚洲高清影片分类页面，覆盖多地区影片与精选片单，便于查看亚洲影片内容。</p>
+    </div>
+    <div class="footer-col">
+      <h2>快速导航</h2>
+      <ul>
+        <li><a href="./index.html">首页</a></li>
+        <li><a href="./categories.html">分类总览</a></li>
+        <li><a href="./ranking.html">热门排行</a></li>
+        <li><a href="./catalog.html">影片索引</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h2>热门分类</h2>
+      <ul><li><a href="./category-asian-featured.html">亚洲精选</a></li><li><a href="./category-hot-movies.html">热门大片</a></li><li><a href="./category-suspense-thriller.html">悬疑惊悚</a></li><li><a href="./category-action-crime.html">动作犯罪</a></li><li><a href="./category-romance-youth.html">爱情青春</a></li><li><a href="./category-comedy-life.html">喜剧生活</a></li></ul>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 亚洲高清影库</div>
+</footer>
+<script src="./assets/search-index.js"></script>
+<script src="./assets/site.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?76b5e2e0f6c84c06f0a7cb7105df054d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
